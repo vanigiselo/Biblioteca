@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+    <head>
+        <meta charset="utf-8">
+        <title>Biblioteca Egg</title>
+        <link rel ="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyROiXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h2>Carga El Autor Aquí!</h2>
+            </div>
+        </header>
+        
+        <div class="container">
+            
+            <form action="/autor/registro" method="POST">
+                
+                <div class="form-group">
+                    <input type="text" class="form-group" name="nombre" placeholder="Nombre del Autor">
+                </div>
+                <button type="submit" class="btn btn-primary">Subir</button>
+            </form>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzOOrT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymus"></script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eTOCpHqdSJQ6hJty5KVphtPhzWj9WOlclHTMGa3JDZwrnQq4sF86dIHNDzOWl" crossorigin="anonymus"></script>
+
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgydOp3pXBlrRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4xOxIM+BO7jRM" crossorigin="anonymus"></script>
+
+    </body>
+</html>
